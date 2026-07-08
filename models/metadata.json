@@ -1,0 +1,22 @@
+{
+  "feature_cols": [
+    "elo_diff",
+    "home_form",
+    "away_form",
+    "home_avg_goals",
+    "away_avg_goals",
+    "home_avg_conceded",
+    "away_avg_conceded",
+    "neutral"
+  ],
+  "classes": [
+    "Away Win",
+    "Draw",
+    "Home Win"
+  ],
+  "label_map": {
+    "0": "Away Win",
+    "1": "Draw",
+    "2": "Home Win"
+  }
+}

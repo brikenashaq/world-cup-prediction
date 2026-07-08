@@ -1,0 +1,1774 @@
+{
+  "updated_at": "2026-07-06T13:29:22.571580",
+  "matches_processed": 92,
+  "teams": {
+    "Mexico": {
+      "form": 1.954,
+      "avg_goals": 1.84,
+      "avg_conceded": 0.56,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-11",
+          "opponent": "South Africa",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "South Korea",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Czech Republic",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Ecuador",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-06",
+          "opponent": "England",
+          "scored": 2,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "South Africa": {
+      "form": 0.846,
+      "avg_goals": 0.67,
+      "avg_conceded": 1.03,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-11",
+          "opponent": "Mexico",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "Czech Republic",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "South Korea",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Canada",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "South Korea": {
+      "form": 0.728,
+      "avg_goals": 0.82,
+      "avg_conceded": 1.04,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-12",
+          "opponent": "Czech Republic",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "Mexico",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "South Africa",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Czech Republic": {
+      "form": 0.365,
+      "avg_goals": 0.82,
+      "avg_conceded": 1.68,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-12",
+          "opponent": "South Korea",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "South Africa",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Mexico",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Canada": {
+      "form": 1.135,
+      "avg_goals": 1.72,
+      "avg_conceded": 1.06,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-12",
+          "opponent": "Bosnia and Herzegovina",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "Qatar",
+          "scored": 6,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Switzerland",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "South Africa",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Morocco",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Bosnia and Herzegovina": {
+      "form": 0.769,
+      "avg_goals": 1.21,
+      "avg_conceded": 1.75,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-12",
+          "opponent": "Canada",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "Switzerland",
+          "scored": 1,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Qatar",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "United States",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "United States": {
+      "form": 1.685,
+      "avg_goals": 2.11,
+      "avg_conceded": 1.03,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Paraguay",
+          "scored": 4,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "Australia",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Turkey",
+          "scored": 2,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Bosnia and Herzegovina",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Paraguay": {
+      "form": 1.251,
+      "avg_goals": 1.38,
+      "avg_conceded": 1.7,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "United States",
+          "scored": 1,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Turkey",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Australia",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Germany",
+          "scored": 5,
+          "conceded": 4,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "France",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Qatar": {
+      "form": 0.436,
+      "avg_goals": 0.64,
+      "avg_conceded": 2.64,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Switzerland",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "Canada",
+          "scored": 0,
+          "conceded": 6,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Bosnia and Herzegovina",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Switzerland": {
+      "form": 2.089,
+      "avg_goals": 2.18,
+      "avg_conceded": 0.82,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Qatar",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-18",
+          "opponent": "Bosnia and Herzegovina",
+          "scored": 4,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Canada",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Algeria",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Brazil": {
+      "form": 1.738,
+      "avg_goals": 2.08,
+      "avg_conceded": 0.86,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Morocco",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Haiti",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Scotland",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Japan",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-05",
+          "opponent": "Norway",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Morocco": {
+      "form": 2.269,
+      "avg_goals": 2.52,
+      "avg_conceded": 1.08,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Brazil",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "Scotland",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Haiti",
+          "scored": 4,
+          "conceded": 2,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "Netherlands",
+          "scored": 4,
+          "conceded": 3,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Canada",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Haiti": {
+      "form": 0.382,
+      "avg_goals": 0.86,
+      "avg_conceded": 2.1,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Scotland",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Brazil",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Morocco",
+          "scored": 2,
+          "conceded": 4,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Scotland": {
+      "form": 1.084,
+      "avg_goals": 0.93,
+      "avg_conceded": 1.25,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Haiti",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "Morocco",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Brazil",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Australia": {
+      "form": 0.86,
+      "avg_goals": 1.21,
+      "avg_conceded": 1.57,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Turkey",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-19",
+          "opponent": "United States",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Paraguay",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Egypt",
+          "scored": 3,
+          "conceded": 5,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Turkey": {
+      "form": 1.318,
+      "avg_goals": 1.43,
+      "avg_conceded": 1.54,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Australia",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Paraguay",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "United States",
+          "scored": 3,
+          "conceded": 2,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Germany": {
+      "form": 1.474,
+      "avg_goals": 3.39,
+      "avg_conceded": 1.87,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Cura\u00e7ao",
+          "scored": 7,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Ivory Coast",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Ecuador",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Paraguay",
+          "scored": 4,
+          "conceded": 5,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Cura\u00e7ao": {
+      "form": 0.655,
+      "avg_goals": 0.93,
+      "avg_conceded": 2.68,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Germany",
+          "scored": 1,
+          "conceded": 7,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Ecuador",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Ivory Coast",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Netherlands": {
+      "form": 1.681,
+      "avg_goals": 3.01,
+      "avg_conceded": 1.69,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Japan",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Sweden",
+          "scored": 5,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Tunisia",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "Morocco",
+          "scored": 3,
+          "conceded": 4,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Japan": {
+      "form": 1.299,
+      "avg_goals": 2.0,
+      "avg_conceded": 1.1,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Netherlands",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Tunisia",
+          "scored": 4,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Sweden",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Brazil",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Ivory Coast": {
+      "form": 1.139,
+      "avg_goals": 1.21,
+      "avg_conceded": 1.03,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Ecuador",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Germany",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Cura\u00e7ao",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "Norway",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Ecuador": {
+      "form": 0.92,
+      "avg_goals": 0.67,
+      "avg_conceded": 0.89,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-14",
+          "opponent": "Ivory Coast",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Cura\u00e7ao",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Germany",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Mexico",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Sweden": {
+      "form": 1.007,
+      "avg_goals": 1.74,
+      "avg_conceded": 2.42,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Tunisia",
+          "scored": 5,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-20",
+          "opponent": "Netherlands",
+          "scored": 1,
+          "conceded": 5,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Japan",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "France",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Tunisia": {
+      "form": 0.166,
+      "avg_goals": 0.75,
+      "avg_conceded": 3.32,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Sweden",
+          "scored": 1,
+          "conceded": 5,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Japan",
+          "scored": 0,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Netherlands",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Spain": {
+      "form": 2.214,
+      "avg_goals": 2.08,
+      "avg_conceded": 0.11,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Cape Verde",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Saudi Arabia",
+          "scored": 4,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Uruguay",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Austria",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Cape Verde": {
+      "form": 0.704,
+      "avg_goals": 1.03,
+      "avg_conceded": 1.21,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Spain",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Uruguay",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Saudi Arabia",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Argentina",
+          "scored": 2,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Belgium": {
+      "form": 1.84,
+      "avg_goals": 2.52,
+      "avg_conceded": 0.92,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Egypt",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Iran",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "New Zealand",
+          "scored": 5,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Senegal",
+          "scored": 3,
+          "conceded": 2,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Egypt": {
+      "form": 1.708,
+      "avg_goals": 2.25,
+      "avg_conceded": 1.3,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Belgium",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "New Zealand",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Iran",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Australia",
+          "scored": 5,
+          "conceded": 3,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Saudi Arabia": {
+      "form": 0.592,
+      "avg_goals": 0.61,
+      "avg_conceded": 1.46,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Uruguay",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Spain",
+          "scored": 0,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Cape Verde",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Uruguay": {
+      "form": 0.742,
+      "avg_goals": 1.04,
+      "avg_conceded": 1.21,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-15",
+          "opponent": "Saudi Arabia",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Cape Verde",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Spain",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Iran": {
+      "form": 0.915,
+      "avg_goals": 1.22,
+      "avg_conceded": 0.89,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "New Zealand",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Belgium",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Egypt",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "New Zealand": {
+      "form": 0.389,
+      "avg_goals": 1.25,
+      "avg_conceded": 2.53,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "Iran",
+          "scored": 2,
+          "conceded": 2,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Egypt",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Belgium",
+          "scored": 1,
+          "conceded": 5,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "France": {
+      "form": 2.734,
+      "avg_goals": 2.78,
+      "avg_conceded": 0.5,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "Senegal",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Iraq",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Norway",
+          "scored": 4,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "Sweden",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Paraguay",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Senegal": {
+      "form": 0.732,
+      "avg_goals": 2.22,
+      "avg_conceded": 2.01,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "France",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Norway",
+          "scored": 2,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Iraq",
+          "scored": 5,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Belgium",
+          "scored": 2,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Iraq": {
+      "form": 0.295,
+      "avg_goals": 0.54,
+      "avg_conceded": 3.1,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "Norway",
+          "scored": 1,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "France",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "Senegal",
+          "scored": 0,
+          "conceded": 5,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Norway": {
+      "form": 2.224,
+      "avg_goals": 2.44,
+      "avg_conceded": 1.64,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-16",
+          "opponent": "Iraq",
+          "scored": 4,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Senegal",
+          "scored": 3,
+          "conceded": 2,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "France",
+          "scored": 1,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "Ivory Coast",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-05",
+          "opponent": "Brazil",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Argentina": {
+      "form": 2.376,
+      "avg_goals": 2.71,
+      "avg_conceded": 0.6,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Algeria",
+          "scored": 3,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Austria",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Jordan",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Cape Verde",
+          "scored": 3,
+          "conceded": 2,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Algeria": {
+      "form": 0.991,
+      "avg_goals": 1.43,
+      "avg_conceded": 1.82,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Argentina",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Jordan",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Austria",
+          "scored": 3,
+          "conceded": 3,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "Switzerland",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Austria": {
+      "form": 1.125,
+      "avg_goals": 1.78,
+      "avg_conceded": 1.82,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Jordan",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Argentina",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Algeria",
+          "scored": 3,
+          "conceded": 3,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Spain",
+          "scored": 0,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Jordan": {
+      "form": 0.223,
+      "avg_goals": 1.14,
+      "avg_conceded": 2.36,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Austria",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Algeria",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Argentina",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Portugal": {
+      "form": 1.831,
+      "avg_goals": 2.11,
+      "avg_conceded": 0.58,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Congo DR",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Uzbekistan",
+          "scored": 5,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Colombia",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Croatia",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Congo DR": {
+      "form": 0.822,
+      "avg_goals": 1.21,
+      "avg_conceded": 1.21,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Portugal",
+          "scored": 1,
+          "conceded": 1,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Colombia",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Uzbekistan",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "England",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "England": {
+      "form": 2.376,
+      "avg_goals": 2.18,
+      "avg_conceded": 0.88,
+      "tournament_games": 5,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Croatia",
+          "scored": 4,
+          "conceded": 2,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Ghana",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Panama",
+          "scored": 2,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Congo DR",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-06",
+          "opponent": "Mexico",
+          "scored": 3,
+          "conceded": 2,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.8
+    },
+    "Croatia": {
+      "form": 1.392,
+      "avg_goals": 1.56,
+      "avg_conceded": 1.65,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "England",
+          "scored": 2,
+          "conceded": 4,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Panama",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Ghana",
+          "scored": 2,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Portugal",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Ghana": {
+      "form": 0.987,
+      "avg_goals": 0.64,
+      "avg_conceded": 0.9,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Panama",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "England",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Croatia",
+          "scored": 1,
+          "conceded": 2,
+          "result": "L"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Colombia",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    },
+    "Panama": {
+      "form": 0.238,
+      "avg_goals": 0.5,
+      "avg_conceded": 1.39,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-17",
+          "opponent": "Ghana",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Croatia",
+          "scored": 0,
+          "conceded": 1,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "England",
+          "scored": 0,
+          "conceded": 2,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Uzbekistan": {
+      "form": 0.23,
+      "avg_goals": 0.86,
+      "avg_conceded": 2.78,
+      "tournament_games": 3,
+      "tournament_results": [
+        {
+          "date": "2026-06-18",
+          "opponent": "Colombia",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Portugal",
+          "scored": 0,
+          "conceded": 5,
+          "result": "L"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Congo DR",
+          "scored": 1,
+          "conceded": 3,
+          "result": "L"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.64
+    },
+    "Colombia": {
+      "form": 2.002,
+      "avg_goals": 1.46,
+      "avg_conceded": 0.4,
+      "tournament_games": 4,
+      "tournament_results": [
+        {
+          "date": "2026-06-18",
+          "opponent": "Uzbekistan",
+          "scored": 3,
+          "conceded": 1,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Congo DR",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Portugal",
+          "scored": 0,
+          "conceded": 0,
+          "result": "D"
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Ghana",
+          "scored": 1,
+          "conceded": 0,
+          "result": "W"
+        }
+      ],
+      "data_source": "blended_live_historical",
+      "live_weight": 0.72
+    }
+  }
+}
