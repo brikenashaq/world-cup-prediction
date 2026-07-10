@@ -50,11 +50,12 @@ with col_btn:
 st.caption("XGBoost · Monte Carlo simulation · Live data via football-data.org · Brikena Shaqi · SEEU 2026")
 st.divider()
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "🏟️ Tournament Tracker",
     "🎯 Remaining Matches",
     "🎲 Simulate Tournament",
     "⚽ Match Predictor",
+    "📺 Watch Live",
     "📋 Groups & Teams",
 ])
 
@@ -71,7 +72,6 @@ with tab1:
         f"{data.get('matches_scheduled',0)} remaining"
     )
 
-    # Live right now
     live_now = data.get("matches",{}).get("live",[])
     if live_now:
         st.markdown("### 🔴 LIVE NOW")
@@ -84,7 +84,6 @@ with tab1:
 
     tracker_tab = st.tabs(["📊 Group Standings", "🏆 Bracket", "⚽ All Matches", "👟 Top Scorers"])
 
-    # Group Standings
     with tracker_tab[0]:
         st.markdown("### Group Stage Standings")
         standings = data.get("standings", {})
@@ -118,7 +117,6 @@ with tab1:
                             })
                         st.dataframe(pd.DataFrame(rows).set_index("#"), use_container_width=True, height=180)
 
-    # Bracket
     with tracker_tab[1]:
         st.markdown("### 🏆 Road to the Final")
         bracket = data.get("bracket", {})
@@ -151,7 +149,6 @@ with tab1:
                             st.caption(m.get("venue",""))
                 st.divider()
 
-    # All Matches
     with tracker_tab[2]:
         st.markdown("### All Matches")
         filter_status = st.radio("Show", ["All","Finished","Upcoming"], horizontal=True)
@@ -164,7 +161,6 @@ with tab1:
             all_matches = data.get("matches",{}).get("finished",[])
         elif filter_status == "Upcoming":
             all_matches = data.get("matches",{}).get("scheduled",[])
-
         if not all_matches:
             st.info("No matches to show.")
         else:
@@ -183,7 +179,6 @@ with tab1:
                 })
             st.dataframe(pd.DataFrame(rows), use_container_width=True, height=500)
 
-    # Top Scorers
     with tracker_tab[3]:
         st.markdown("### 👟 Top Scorers — World Cup 2026")
         scorers = data.get("scorers", [])
@@ -230,11 +225,8 @@ with tab2:
 
         current_stage = None
         for match in upcoming:
-            # Extract and sanitise team names — FIRST thing, before anything else
             home = str(match.get("home") or "").strip()
             away = str(match.get("away") or "").strip()
-
-            # Skip if either team is not yet determined
             if not home or not away or home == "None" or away == "None":
                 continue
 
@@ -251,7 +243,7 @@ with tab2:
             fav = max(ph, pd_, pa)
 
             with st.container():
-                c_info, c_pred = st.columns([2, 4])
+                c_info, c_pred, c_watch = st.columns([2, 4, 1])
                 with c_info:
                     st.markdown(f"**{home} vs {away}**")
                     st.caption(f"📅 {match.get('date','')}  ·  📍 {match.get('venue','')}")
@@ -266,6 +258,9 @@ with tab2:
                     with c3:
                         st.metric(away, f"{pa*100:.0f}%", "⭐" if pa==fav else "")
                         st.progress(pa)
+                with c_watch:
+                    st.markdown("<br>", unsafe_allow_html=True)
+                    st.link_button("📺 Watch", "https://hubafoot.com", use_container_width=True)
             st.divider()
 
     else:
@@ -287,7 +282,7 @@ with tab2:
             ph, pd_, pa = sim.predict_proba(home, away, neutral=True)
             fav = max(ph, pd_, pa)
             with st.container():
-                c_info, c_pred = st.columns([2, 4])
+                c_info, c_pred, c_watch = st.columns([2, 4, 1])
                 with c_info:
                     st.markdown(f"**{home} vs {away}**")
                     st.caption(f"📅 {m['date']}  ·  📍 {m['venue']}")
@@ -296,6 +291,9 @@ with tab2:
                     with c1: st.metric(home, f"{ph*100:.0f}%", "⭐" if ph==fav else ""); st.progress(ph)
                     with c2: st.metric("Draw", f"{pd_*100:.0f}%"); st.progress(pd_)
                     with c3: st.metric(away, f"{pa*100:.0f}%", "⭐" if pa==fav else ""); st.progress(pa)
+                with c_watch:
+                    st.markdown("<br>", unsafe_allow_html=True)
+                    st.link_button("📺 Watch", "https://hubafoot.com", use_container_width=True)
             st.divider()
 
 
@@ -404,9 +402,112 @@ with tab4:
 
 
 # ════════════════════════════════════════════════════════════════════════════════
-# TAB 5 — GROUPS & TEAMS
+# TAB 5 — WATCH LIVE (new!)
 # ════════════════════════════════════════════════════════════════════════════════
 with tab5:
+    st.subheader("📺 Watch World Cup 2026 Live")
+    st.markdown("Stream every match for free using the links below.")
+    st.divider()
+
+    # Today's / upcoming matches from API
+    scheduled       = data.get("matches",{}).get("scheduled",[])
+    live_now        = data.get("matches",{}).get("live",[])
+    knockout_stages = {"ROUND_OF_16","QUARTER_FINALS","SEMI_FINALS","FINAL","THIRD_PLACE","GROUP_STAGE"}
+    all_upcoming    = live_now + [m for m in scheduled if m.get("stage","") in knockout_stages]
+
+    if live_now:
+        st.markdown("### 🔴 Live Right Now")
+        for m in live_now:
+            home_name = m.get("home") or "TBD"
+            away_name = m.get("away") or "TBD"
+            c1, c2 = st.columns([3, 1])
+            with c1:
+                st.markdown(f"### {home_name} {m['score_home']} — {m['score_away']} {away_name}")
+                st.caption(f"📍 {m.get('venue','')}")
+            with c2:
+                st.markdown("<br>", unsafe_allow_html=True)
+                st.link_button("📺 Watch Now", "https://hubafoot.com",
+                               type="primary", use_container_width=True)
+        st.divider()
+
+    st.markdown("### 📅 Upcoming Matches")
+
+    upcoming_display = [m for m in scheduled if m.get("stage","") in
+                        {"ROUND_OF_16","QUARTER_FINALS","SEMI_FINALS","FINAL","THIRD_PLACE"}]
+    upcoming_display.sort(key=lambda m: m.get("date",""))
+
+    if upcoming_display:
+        for m in upcoming_display:
+            home_name = str(m.get("home") or "").strip()
+            away_name = str(m.get("away") or "").strip()
+            if not home_name or not away_name or home_name == "None" or away_name == "None":
+                home_name = "TBD"
+                away_name = "TBD"
+
+            c1, c2, c3 = st.columns([3, 2, 1])
+            with c1:
+                st.markdown(f"**{home_name} vs {away_name}**")
+                st.caption(f"📅 {m.get('date','')}  ·  🕐 {m.get('time','')} UTC  ·  📍 {m.get('venue','')}")
+            with c2:
+                stage = m.get("stage","").replace("_"," ").title()
+                st.caption(f"🏆 {stage}")
+            with c3:
+                st.link_button("📺 Watch Free", "https://hubafoot.com", use_container_width=True)
+            st.divider()
+    else:
+        # Fallback hardcoded
+        hardcoded_watch = [
+            {"date": "Jul 5",  "time": "22:00", "home": "Norway",    "away": "Brazil",        "venue": "New York",    "stage": "Round of 16"},
+            {"date": "Jul 5",  "time": "21:00", "home": "Portugal",  "away": "Spain",         "venue": "Dallas",      "stage": "Round of 16"},
+            {"date": "Jul 6",  "time": "21:00", "home": "England",   "away": "Mexico",        "venue": "Los Angeles", "stage": "Round of 16"},
+            {"date": "Jul 7",  "time": "21:00", "home": "Belgium",   "away": "United States", "venue": "Seattle",     "stage": "Round of 16"},
+            {"date": "Jul 7",  "time": "21:00", "home": "Argentina", "away": "Egypt",         "venue": "Houston",     "stage": "Round of 16"},
+            {"date": "Jul 8",  "time": "21:00", "home": "Colombia",  "away": "Switzerland",   "venue": "Miami",       "stage": "Round of 16"},
+            {"date": "Jul 9",  "time": "21:00", "home": "France",    "away": "Morocco",       "venue": "Boston",      "stage": "Quarter-final"},
+            {"date": "Jul 19", "time": "19:00", "home": "TBD",       "away": "TBD",           "venue": "MetLife Stadium, New Jersey", "stage": "🏆 Final"},
+        ]
+        for m in hardcoded_watch:
+            c1, c2, c3 = st.columns([3, 2, 1])
+            with c1:
+                st.markdown(f"**{m['home']} vs {m['away']}**")
+                st.caption(f"📅 {m['date']}  ·  🕐 {m['time']} ET  ·  📍 {m['venue']}")
+            with c2:
+                st.caption(f"🏆 {m['stage']}")
+            with c3:
+                st.link_button("📺 Watch Free", "https://hubafoot.com", use_container_width=True)
+            st.divider()
+
+    st.divider()
+
+    # Streaming options
+    st.markdown("### 🌍 Free Streaming Options")
+    st.markdown("Multiple free options to watch every World Cup match:")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("#### 📺 Huba Football")
+        st.markdown("Free streams for all matches. No account needed.")
+        st.link_button("Open Huba Football", "https://hubafoot.com",
+                       type="primary", use_container_width=True)
+    with col2:
+        st.markdown("#### 🌐 FIFA+")
+        st.markdown("Official FIFA streaming. Free in many countries.")
+        st.link_button("Open FIFA+", "https://www.fifa.com/fifaplus",
+                       use_container_width=True)
+    with col3:
+        st.markdown("#### 📡 LiveSoccerTV")
+        st.markdown("Find official broadcasters in your country.")
+        st.link_button("Find Broadcasters", "https://www.livesoccertv.com",
+                       use_container_width=True)
+
+    st.divider()
+    st.caption("⚠️ Links open in a new tab. We don't host any streams — we only link to external sites.")
+
+
+# ════════════════════════════════════════════════════════════════════════════════
+# TAB 6 — GROUPS & TEAMS
+# ════════════════════════════════════════════════════════════════════════════════
+with tab6:
     st.subheader("2026 World Cup — Official Groups")
     cols = st.columns(4)
     for i, (g, teams) in enumerate(sorted(GROUPS.items())):
