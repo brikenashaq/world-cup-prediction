@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T13:48:25.235665+00:00",
-  "matches_finished": 92,
-  "matches_scheduled": 12,
+  "updated_at": "2026-07-10T23:13:59.669361+00:00",
+  "matches_finished": 98,
+  "matches_scheduled": 6,
   "matches_live": 0,
   "standings": {},
   "matches": {
@@ -1661,9 +1661,7 @@
         "venue": "",
         "status": "FINISHED",
         "winner": "AWAY_TEAM"
-      }
-    ],
-    "scheduled": [
+      },
       {
         "id": 537379,
         "date": "2026-07-06",
@@ -1674,13 +1672,13 @@
         "away": "Spain",
         "home_crest": "https://crests.football-data.org/765.svg",
         "away_crest": "https://crests.football-data.org/760.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 0,
+        "score_away": 1,
+        "ht_home": 0,
+        "ht_away": 0,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "AWAY_TEAM"
       },
       {
         "id": 537380,
@@ -1692,13 +1690,13 @@
         "away": "Belgium",
         "home_crest": "https://crests.football-data.org/usa.svg",
         "away_crest": "https://crests.football-data.org/805.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 1,
+        "score_away": 4,
+        "ht_home": 1,
+        "ht_away": 2,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "AWAY_TEAM"
       },
       {
         "id": 537381,
@@ -1710,13 +1708,13 @@
         "away": "Egypt",
         "home_crest": "https://crests.football-data.org/762.png",
         "away_crest": "https://crests.football-data.org/825.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 3,
+        "score_away": 2,
+        "ht_home": 0,
+        "ht_away": 1,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
       },
       {
         "id": 537382,
@@ -1728,13 +1726,13 @@
         "away": "Colombia",
         "home_crest": "https://crests.football-data.org/788.svg",
         "away_crest": "https://crests.football-data.org/818.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 4,
+        "score_away": 3,
+        "ht_home": 0,
+        "ht_away": 0,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
       },
       {
         "id": 537383,
@@ -1746,13 +1744,13 @@
         "away": "Morocco",
         "home_crest": "https://crests.football-data.org/773.svg",
         "away_crest": "https://crests.football-data.org/morocco.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 2,
+        "score_away": 0,
+        "ht_home": 0,
+        "ht_away": 0,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
       },
       {
         "id": 537384,
@@ -1760,18 +1758,20 @@
         "time": "19:00",
         "stage": "QUARTER_FINALS",
         "group": null,
-        "home": null,
-        "away": null,
-        "home_crest": null,
-        "away_crest": null,
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "home": "Spain",
+        "away": "Belgium",
+        "home_crest": "https://crests.football-data.org/760.svg",
+        "away_crest": "https://crests.football-data.org/805.svg",
+        "score_home": 2,
+        "score_away": 1,
+        "ht_home": 1,
+        "ht_away": 1,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
-      },
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
+      }
+    ],
+    "scheduled": [
       {
         "id": 537385,
         "date": "2026-07-11",
@@ -1796,10 +1796,10 @@
         "time": "01:00",
         "stage": "QUARTER_FINALS",
         "group": null,
-        "home": null,
-        "away": null,
-        "home_crest": null,
-        "away_crest": null,
+        "home": "Argentina",
+        "away": "Switzerland",
+        "home_crest": "https://crests.football-data.org/762.png",
+        "away_crest": "https://crests.football-data.org/788.svg",
         "score_home": null,
         "score_away": null,
         "ht_home": null,
@@ -1814,9 +1814,9 @@
         "time": "19:00",
         "stage": "SEMI_FINALS",
         "group": null,
-        "home": null,
+        "home": "France",
         "away": null,
-        "home_crest": null,
+        "home_crest": "https://crests.football-data.org/773.svg",
         "away_crest": null,
         "score_home": null,
         "score_away": null,
@@ -3554,13 +3554,13 @@
           "away": "Spain",
           "home_crest": "https://crests.football-data.org/765.svg",
           "away_crest": "https://crests.football-data.org/760.svg",
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "score_home": 0,
+          "score_away": 1,
+          "ht_home": 0,
+          "ht_away": 0,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "AWAY_TEAM"
         },
         {
           "id": 537380,
@@ -3572,13 +3572,13 @@
           "away": "Belgium",
           "home_crest": "https://crests.football-data.org/usa.svg",
           "away_crest": "https://crests.football-data.org/805.svg",
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "score_home": 1,
+          "score_away": 4,
+          "ht_home": 1,
+          "ht_away": 2,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "AWAY_TEAM"
         },
         {
           "id": 537381,
@@ -3590,13 +3590,13 @@
           "away": "Egypt",
           "home_crest": "https://crests.football-data.org/762.png",
           "away_crest": "https://crests.football-data.org/825.svg",
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "score_home": 3,
+          "score_away": 2,
+          "ht_home": 0,
+          "ht_away": 1,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "HOME_TEAM"
         },
         {
           "id": 537382,
@@ -3608,13 +3608,13 @@
           "away": "Colombia",
           "home_crest": "https://crests.football-data.org/788.svg",
           "away_crest": "https://crests.football-data.org/818.svg",
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "score_home": 4,
+          "score_away": 3,
+          "ht_home": 0,
+          "ht_away": 0,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "HOME_TEAM"
         }
       ],
       "QUARTER_FINALS": [
@@ -3628,13 +3628,13 @@
           "away": "Morocco",
           "home_crest": "https://crests.football-data.org/773.svg",
           "away_crest": "https://crests.football-data.org/morocco.svg",
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "score_home": 2,
+          "score_away": 0,
+          "ht_home": 0,
+          "ht_away": 0,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "HOME_TEAM"
         },
         {
           "id": 537384,
@@ -3642,17 +3642,17 @@
           "time": "19:00",
           "stage": "QUARTER_FINALS",
           "group": null,
-          "home": null,
-          "away": null,
-          "home_crest": null,
-          "away_crest": null,
-          "score_home": null,
-          "score_away": null,
-          "ht_home": null,
-          "ht_away": null,
+          "home": "Spain",
+          "away": "Belgium",
+          "home_crest": "https://crests.football-data.org/760.svg",
+          "away_crest": "https://crests.football-data.org/805.svg",
+          "score_home": 2,
+          "score_away": 1,
+          "ht_home": 1,
+          "ht_away": 1,
           "venue": "",
-          "status": "TIMED",
-          "winner": null
+          "status": "FINISHED",
+          "winner": "HOME_TEAM"
         },
         {
           "id": 537385,
@@ -3678,10 +3678,10 @@
           "time": "01:00",
           "stage": "QUARTER_FINALS",
           "group": null,
-          "home": null,
-          "away": null,
-          "home_crest": null,
-          "away_crest": null,
+          "home": "Argentina",
+          "away": "Switzerland",
+          "home_crest": "https://crests.football-data.org/762.png",
+          "away_crest": "https://crests.football-data.org/788.svg",
           "score_home": null,
           "score_away": null,
           "ht_home": null,
@@ -3698,9 +3698,9 @@
           "time": "19:00",
           "stage": "SEMI_FINALS",
           "group": null,
-          "home": null,
+          "home": "France",
           "away": null,
-          "home_crest": null,
+          "home_crest": "https://crests.football-data.org/773.svg",
           "away_crest": null,
           "score_home": null,
           "score_away": null,
@@ -3778,9 +3778,19 @@
       "nationality": "France",
       "team": "France",
       "team_crest": "https://crests.football-data.org/773.svg",
-      "goals": 7,
+      "goals": 8,
       "assists": 2,
       "penalties": 1,
+      "played": 6
+    },
+    {
+      "name": "Lionel Messi",
+      "nationality": "Argentina",
+      "team": "Argentina",
+      "team_crest": "https://crests.football-data.org/762.png",
+      "goals": 8,
+      "assists": 1,
+      "penalties": null,
       "played": 5
     },
     {
@@ -3792,16 +3802,6 @@
       "assists": null,
       "penalties": null,
       "played": 5
-    },
-    {
-      "name": "Lionel Messi",
-      "nationality": "Argentina",
-      "team": "Argentina",
-      "team_crest": "https://crests.football-data.org/762.png",
-      "goals": 7,
-      "assists": null,
-      "penalties": null,
-      "played": 4
     },
     {
       "name": "Harry Kane",
@@ -3818,10 +3818,10 @@
       "nationality": "France",
       "team": "France",
       "team_crest": "https://crests.football-data.org/773.svg",
-      "goals": 4,
+      "goals": 5,
       "assists": 2,
       "penalties": null,
-      "played": 5
+      "played": 6
     },
     {
       "name": "Juli\u00e1n Qui\u00f1ones",
@@ -3861,7 +3861,7 @@
       "goals": 4,
       "assists": 1,
       "penalties": null,
-      "played": 4
+      "played": 6
     },
     {
       "name": "Isma\u00efla Sarr",
@@ -3904,6 +3904,26 @@
       "played": 4
     },
     {
+      "name": "Romelu Lukaku",
+      "nationality": "Belgium",
+      "team": "Belgium",
+      "team_crest": "https://crests.football-data.org/805.svg",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null,
+      "played": 6
+    },
+    {
+      "name": "Charles De Ketelaere",
+      "nationality": "Belgium",
+      "team": "Belgium",
+      "team_crest": "https://crests.football-data.org/805.svg",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null,
+      "played": 6
+    },
+    {
       "name": "Ra\u00fal Jim\u00e9nez",
       "nationality": "Mexico",
       "team": "Mexico",
@@ -3921,7 +3941,7 @@
       "goals": 3,
       "assists": null,
       "penalties": null,
-      "played": 4
+      "played": 5
     },
     {
       "name": "Ismael Saibari",
@@ -3931,7 +3951,7 @@
       "goals": 3,
       "assists": null,
       "penalties": null,
-      "played": 5
+      "played": 6
     },
     {
       "name": "Kai Havertz",
@@ -4001,7 +4021,7 @@
       "goals": 3,
       "assists": null,
       "penalties": 1,
-      "played": 4
+      "played": 5
     },
     {
       "name": "Breel Embolo",
@@ -4011,7 +4031,7 @@
       "goals": 2,
       "assists": 2,
       "penalties": 1,
-      "played": 4
+      "played": 5
     },
     {
       "name": "Crysencio Summerville",
@@ -4052,26 +4072,6 @@
       "assists": null,
       "penalties": null,
       "played": 3
-    },
-    {
-      "name": "Yasin Ayari",
-      "nationality": "Sweden",
-      "team": "Sweden",
-      "team_crest": "https://crests.football-data.org/792.svg",
-      "goals": 2,
-      "assists": null,
-      "penalties": null,
-      "played": 4
-    },
-    {
-      "name": "Emam Ashour",
-      "nationality": "Egypt",
-      "team": "Egypt",
-      "team_crest": "https://crests.football-data.org/825.svg",
-      "goals": 2,
-      "assists": null,
-      "penalties": null,
-      "played": 4
     }
   ],
   "bracket": {
@@ -4086,13 +4086,13 @@
         "away": "Morocco",
         "home_crest": "https://crests.football-data.org/773.svg",
         "away_crest": "https://crests.football-data.org/morocco.svg",
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "score_home": 2,
+        "score_away": 0,
+        "ht_home": 0,
+        "ht_away": 0,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
       },
       {
         "id": 537384,
@@ -4100,17 +4100,17 @@
         "time": "19:00",
         "stage": "QUARTER_FINALS",
         "group": null,
-        "home": null,
-        "away": null,
-        "home_crest": null,
-        "away_crest": null,
-        "score_home": null,
-        "score_away": null,
-        "ht_home": null,
-        "ht_away": null,
+        "home": "Spain",
+        "away": "Belgium",
+        "home_crest": "https://crests.football-data.org/760.svg",
+        "away_crest": "https://crests.football-data.org/805.svg",
+        "score_home": 2,
+        "score_away": 1,
+        "ht_home": 1,
+        "ht_away": 1,
         "venue": "",
-        "status": "TIMED",
-        "winner": null
+        "status": "FINISHED",
+        "winner": "HOME_TEAM"
       },
       {
         "id": 537385,
@@ -4136,10 +4136,10 @@
         "time": "01:00",
         "stage": "QUARTER_FINALS",
         "group": null,
-        "home": null,
-        "away": null,
-        "home_crest": null,
-        "away_crest": null,
+        "home": "Argentina",
+        "away": "Switzerland",
+        "home_crest": "https://crests.football-data.org/762.png",
+        "away_crest": "https://crests.football-data.org/788.svg",
         "score_home": null,
         "score_away": null,
         "ht_home": null,
@@ -4156,9 +4156,9 @@
         "time": "19:00",
         "stage": "SEMI_FINALS",
         "group": null,
-        "home": null,
+        "home": "France",
         "away": null,
-        "home_crest": null,
+        "home_crest": "https://crests.football-data.org/773.svg",
         "away_crest": null,
         "score_home": null,
         "score_away": null,
