@@ -15,13 +15,15 @@ import requests
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
+import streamlit as st
 
 ROOT  = Path(__file__).parent.parent
 PROC  = ROOT / "data" / "processed"
 PROC.mkdir(parents=True, exist_ok=True)
 
 # ── Your API key ──────────────────────────────────────────────────────────────
-API_KEY = "10b06a04a02f483884448c688bd3f12f"
+
+API_KEY = st.secrets.get("FOOTBALL_API_KEY", "")
 BASE    = "https://api.football-data.org/v4"
 HEADERS = {"X-Auth-Token": API_KEY}
 
