@@ -66,3 +66,4 @@ logs/
 .env.local
 secrets.toml
 .streamlit/secrets.toml
+.venv/
