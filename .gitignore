@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files — raw data too large for git
+data/raw/results.csv
+data/raw/eloratings.csv
+data/raw/WorldCupMatches.csv
+data/raw/WorldCupPlayers.csv
+data/raw/WorldCups.csv
+data/raw/all_matches.csv
+data/raw/countries_names.csv
+
+# Keep processed data and models (needed for deployment)
+!data/processed/features.csv
+!data/processed/live_team_stats.json
+!data/processed/tournament_cache.json
+!models/model.pkl
+!models/label_encoder.pkl
+!models/metadata.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Secrets — never commit API keys
+.env
+.env.local
+secrets.toml
+.streamlit/secrets.toml
